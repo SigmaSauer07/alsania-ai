@@ -1,0 +1,10 @@
+{
+    "training_data": [
+      {"input": "User: Hello", "output": "AI: Hi! How can I help?"},
+      {"input": "User: What is 2+2?", "output": "AI: 4"}
+    ],
+    "corrections": [
+      {"query": "What’s the capital of Germany?", "incorrect": "AI: Paris", "correct": "AI: Berlin"}
+    ]
+  }
+  
