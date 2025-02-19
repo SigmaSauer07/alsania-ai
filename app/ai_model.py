@@ -1,12 +1,20 @@
 import json
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from dotenv import load_dotenv
+import os
 
-# Load Mistral 7B model
-model_name = "mistralai/Mistral-7B-Instruct-v0.1"
-model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto")
-tokenizer = AutoTokenizer.from_pretrained(model_name)
+# Load environment variables from .env file
+load_dotenv()
 
-print("✅ Mistral 7B is ready!")
+# Get the Hugging Face access token
+access_token = os.getenv('HUGGINGFACE_TOKEN')
+
+# Load Mistral 7B model with authentication
+model_name = "EleutherAI/gpt-neo-125m"
+model = AutoModelForCausalLM.from_pretrained(model_name, use_auth_token=access_token, device_map="cpu")
+tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=access_token)
+
+print("✅ gpt-neo-125m is ready!")
 
 # Process user input and generate AI response
 def process_message(user_input):
