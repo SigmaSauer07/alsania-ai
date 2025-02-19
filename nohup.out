@@ -1,0 +1,38 @@
+Initializing daemon...
+Kubo version: 0.29.0
+Repo version: 15
+System version: amd64/linux
+Golang version: go1.22.4
+2025/02/18 02:49:50 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 7168 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+Swarm listening on /ip4/10.255.255.254/tcp/4001
+Swarm listening on /ip4/10.255.255.254/udp/4001/quic-v1
+Swarm listening on /ip4/10.255.255.254/udp/4001/quic-v1/webtransport/certhash/uEiAN_QELyPeq4sUzi7atFHTJqMhvkf-WbmQf-xCUV_mAGA/certhash/uEiBVEqSnv28QlUU5y-5bCjCLPlrqpawPAUz-Suj9ki5PqA
+Swarm listening on /ip4/127.0.0.1/tcp/4001
+Swarm listening on /ip4/127.0.0.1/udp/4001/quic-v1
+Swarm listening on /ip4/127.0.0.1/udp/4001/quic-v1/webtransport/certhash/uEiAN_QELyPeq4sUzi7atFHTJqMhvkf-WbmQf-xCUV_mAGA/certhash/uEiBVEqSnv28QlUU5y-5bCjCLPlrqpawPAUz-Suj9ki5PqA
+Swarm listening on /ip4/172.24.205.182/tcp/4001
+Swarm listening on /ip4/172.24.205.182/udp/4001/quic-v1
+Swarm listening on /ip4/172.24.205.182/udp/4001/quic-v1/webtransport/certhash/uEiAN_QELyPeq4sUzi7atFHTJqMhvkf-WbmQf-xCUV_mAGA/certhash/uEiBVEqSnv28QlUU5y-5bCjCLPlrqpawPAUz-Suj9ki5PqA
+Swarm listening on /ip6/::1/tcp/4001
+Swarm listening on /ip6/::1/udp/4001/quic-v1
+Swarm listening on /ip6/::1/udp/4001/quic-v1/webtransport/certhash/uEiAN_QELyPeq4sUzi7atFHTJqMhvkf-WbmQf-xCUV_mAGA/certhash/uEiBVEqSnv28QlUU5y-5bCjCLPlrqpawPAUz-Suj9ki5PqA
+Swarm listening on /p2p-circuit
+Swarm announcing /ip4/127.0.0.1/tcp/4001
+Swarm announcing /ip4/127.0.0.1/udp/4001/quic-v1
+Swarm announcing /ip4/127.0.0.1/udp/4001/quic-v1/webtransport/certhash/uEiAN_QELyPeq4sUzi7atFHTJqMhvkf-WbmQf-xCUV_mAGA/certhash/uEiBVEqSnv28QlUU5y-5bCjCLPlrqpawPAUz-Suj9ki5PqA
+Swarm announcing /ip4/172.24.205.182/tcp/4001
+Swarm announcing /ip4/172.24.205.182/udp/4001/quic-v1
+Swarm announcing /ip4/172.24.205.182/udp/4001/quic-v1/webtransport/certhash/uEiAN_QELyPeq4sUzi7atFHTJqMhvkf-WbmQf-xCUV_mAGA/certhash/uEiBVEqSnv28QlUU5y-5bCjCLPlrqpawPAUz-Suj9ki5PqA
+Swarm announcing /ip4/35.150.9.130/udp/44824/quic-v1
+Swarm announcing /ip4/35.150.9.130/udp/44824/quic-v1/webtransport/certhash/uEiAN_QELyPeq4sUzi7atFHTJqMhvkf-WbmQf-xCUV_mAGA/certhash/uEiBVEqSnv28QlUU5y-5bCjCLPlrqpawPAUz-Suj9ki5PqA
+Swarm announcing /ip6/::1/tcp/4001
+Swarm announcing /ip6/::1/udp/4001/quic-v1
+Swarm announcing /ip6/::1/udp/4001/quic-v1/webtransport/certhash/uEiAN_QELyPeq4sUzi7atFHTJqMhvkf-WbmQf-xCUV_mAGA/certhash/uEiBVEqSnv28QlUU5y-5bCjCLPlrqpawPAUz-Suj9ki5PqA
+RPC API server listening on /ip4/127.0.0.1/tcp/5001
+WebUI: http://127.0.0.1:5001/webui
+Gateway server listening on /ip4/127.0.0.1/tcp/8080
+Daemon is ready
+
+Received interrupt signal, shutting down...
+(Hit ctrl-c again to force-shutdown the daemon.)
+Watching for changes in dataset/dataset.json...

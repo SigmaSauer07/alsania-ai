@@ -1,0 +1,9 @@
+{
+  "model_version": "1.0",
+  "training_data": {
+    "messages": [
+      { "input": "Hello", "response": "Hi!" },
+      { "input": "How are you?", "response": "I'm good, thanks!" }
+    ]
+  }
+}
