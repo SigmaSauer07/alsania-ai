@@ -9,5 +9,5 @@ def get_dataset():
     return fetch_latest_dataset()
 
 @router.post("/chat")
-def chat(input_text: str):
-    return process_message(input_text)
+def chat(user_input: str):
+    return process_message(user_input)

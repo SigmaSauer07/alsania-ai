@@ -19,8 +19,3 @@ app.include_router(router)
 @app.get("/")
 def home():
     return {"message": "Welcome to the Alsania AI Chatbot!"}
-
-# Test environment variable loading
-@app.get("/env-check")
-def env_check():
-    return {"HUGGINGFACE_TOKEN": HUGGINGFACE_TOKEN if HUGGINGFACE_TOKEN else "Token not found"}

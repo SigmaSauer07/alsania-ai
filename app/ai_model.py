@@ -9,16 +9,15 @@ load_dotenv()
 # Get the Hugging Face access token
 access_token = os.getenv('HUGGINGFACE_TOKEN')
 
-# Load Mistral 7B model with authentication
-model_name = "EleutherAI/gpt-neo-125m"
-model = AutoModelForCausalLM.from_pretrained(model_name, use_auth_token=access_token, device_map="cpu")
-tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=access_token)
+# Load GPT-Neo model
+model_name = "EleutherAI/gpt-neo-125M"  # Change this to your desired model size
+model = AutoModelForCausalLM.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-print("✅ gpt-neo-125m is ready!")
+print("✅ GPT-Neo model is ready!")
 
-# Process user input and generate AI response
 def process_message(user_input):
-    inputs = tokenizer(user_input, return_tensors="pt").to("cuda")  # Move to GPU if available
+    inputs = tokenizer(user_input, return_tensors="pt")
     outputs = model.generate(**inputs, max_length=200)
     response = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return {"response": response}
