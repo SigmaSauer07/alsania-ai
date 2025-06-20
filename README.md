@@ -1,7 +1,10 @@
 ### Alsania AI Overview
 
 **Project Name:** Alsania AI  
-**Repository:** [GitHub - Alsania AI](https://github.com/SigmaSauer07/alsania_ai)
+**Part of the Alsania Ecosystem**
+- [Alsania L2 Blockchain](https://github.com/SigmaSauer07/alsania-l2-blockchain)
+- [Alsania AI](https://github.com/SigmaSauer07/alsania-ai)
+- [Alsania Enhanced Domains](https://github.com/SigmaSauer07/aed)
 
 **Description:**
 Alsania AI is an innovative, learning, and remembering AI chatbot designed to assist users by providing accurate information and engaging in meaningful conversations. Developed using FastAPI, Alsania AI aims to integrate advanced AI capabilities with a focus on usability and performance, making it suitable for devices with limited resources such as low RAM and storage.
